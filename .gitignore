@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local models and vector database
+chroma_db/
+huggingface_cache/
+
+# IDE
+.vscode/
+
+# Logs
+*.log
