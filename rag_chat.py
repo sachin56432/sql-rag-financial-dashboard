@@ -51,7 +51,7 @@ retriever = vector_store.as_retriever(
 )
 
 
-# 4. Retrieve financial data from MySQL
+# 4. Retrieve financial data  MySQL
 def get_sql_data(_):
     df = get_monthly_summary()
 

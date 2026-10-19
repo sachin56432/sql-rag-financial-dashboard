@@ -32,3 +32,5 @@ vector_store = Chroma.from_documents(
 
 print("Financial documents stored in ChromaDB!")
 print("Total chunks:", len(chunks))
+
+print(vector_store.similarity_search("expense", k=2))
